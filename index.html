@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row p-4">
+
+            <!-- left side -->
+            <div class="col-md-4 bg-danger-subtle" id="left-side">
+                <div class="card m-2" style="width: 20rem;">
+                    <img src="images/headphone.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h3 class="card-title">Headphone</h3>
+                        <h5>200$</h5>
+                        <a href="#" class="btn btn-primary add-cart">Add Cart</a>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 20rem;">
+                    <img src="images/watch.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h3 class="card-title">Watch</h3>
+                        <h5>300$</h5>
+                        <a href="#" class="btn btn-primary add-cart">Add Cart</a>
+                    </div>
+                </div>
+
+                <div class="card m-2" style="width: 20rem;">
+                    <img src="images/laptop.jpg" class="card-img-top" alt="...">
+
+                    <div class="card-body">
+                        <h3 class="card-title">Laptop</h3>
+                        <h5>400$</h5>
+                        <a href="#" class="btn btn-primary add-cart">Add Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="col-md-8 bg-info-subtle cart" id="right-side">
+
+                <a href=""><button type="button" class="btn btn-primary w-50">Cart<span>0</span></button></a>
+
+                <div class="products-container">
+                    <div class="product-header">
+                        <h5 class="product-title">PRODUCT</h5>
+                        <h5 class="price">PRICE</h5>
+                        <h5 class="quantity">QUANTITY</h5>
+                        <h5 class="total">TOTAL</h5>
+                    </div>
+                    <div class="products">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <script src="main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+
+
+</body>
+
+</html>
